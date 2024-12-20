@@ -18,18 +18,18 @@ size = 8
 legalMoves = set()
 activeChecks = set()
 pieceImages = {
-    "lr": pygame.transform.scale(pygame.image.load("images/whiteRook.png"), (50, 50)),
-    "lh": pygame.transform.scale(pygame.image.load("images/whiteHorse.png"), (50, 50)),
-    "lb": pygame.transform.scale(pygame.image.load("images/whiteBishop.png"), (50, 50)),
-    "lq": pygame.transform.scale(pygame.image.load("images/whiteQueen.png"), (50, 50)),
-    "lk": pygame.transform.scale(pygame.image.load("images/whiteKing.png"), (50, 50)),
-    "lp": pygame.transform.scale(pygame.image.load("images/whitePawn.png"), (50, 50)),
-    "dr": pygame.transform.scale(pygame.image.load("images/blackRook.png"), (50, 50)),
-    "dh": pygame.transform.scale(pygame.image.load("images/blackHorse.png"), (50, 50)),
-    "db": pygame.transform.scale(pygame.image.load("images/blackBishop.png"), (50, 50)),
-    "dq": pygame.transform.scale(pygame.image.load("images/blackQueen.png"), (50, 50)),
-    "dk": pygame.transform.scale(pygame.image.load("images/blackKing.png"), (50, 50)),
-    "dp": pygame.transform.scale(pygame.image.load("images/blackPawn.png"), (50, 50)),
+    "lr": pygame.transform.scale(pygame.image.load("whiteRook.png"), (50, 50)),
+    "lh": pygame.transform.scale(pygame.image.load("whiteHorse.png"), (50, 50)),
+    "lb": pygame.transform.scale(pygame.image.load("whiteBishop.png"), (50, 50)),
+    "lq": pygame.transform.scale(pygame.image.load("whiteQueen.png"), (50, 50)),
+    "lk": pygame.transform.scale(pygame.image.load("whiteKing.png"), (50, 50)),
+    "lp": pygame.transform.scale(pygame.image.load("whitePawn.png"), (50, 50)),
+    "dr": pygame.transform.scale(pygame.image.load("blackRook.png"), (50, 50)),
+    "dh": pygame.transform.scale(pygame.image.load("blackHorse.png"), (50, 50)),
+    "db": pygame.transform.scale(pygame.image.load("blackBishop.png"), (50, 50)),
+    "dq": pygame.transform.scale(pygame.image.load("blackQueen.png"), (50, 50)),
+    "dk": pygame.transform.scale(pygame.image.load("blackKing.png"), (50, 50)),
+    "dp": pygame.transform.scale(pygame.image.load("blackPawn.png"), (50, 50)),
 }
 board = [
         ["dr","dh","db","dq","dk","db","dh","dr"],
