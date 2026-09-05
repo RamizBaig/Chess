@@ -37,7 +37,7 @@ board = [
         [None,None,None,None,None,None,None,None],
         [None,None,None,None,None,None,None,None],
         [None,None,None,None,None,None,None,None],
-        [None,"lb",None,None,None,"lq",None,None],
+        [None,None,None,None,None,None,None,None],
         ["lp","lp","lp","lp","lp","lp","lp","lp"],
         ["lr","lh","lb","lq","lk","lb","lh","lr"]
     ]
