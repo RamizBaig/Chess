@@ -41,16 +41,7 @@ board = [
         ["lp","lp","lp","lp","lp","lp","lp","lp"],
         ["lr","lh","lb","lq","lk","lb","lh","lr"]
     ]
-board = [
-        [None,None,None,None,None,None,None,"dk"],
-        ["lr",None,None,None,None,None,None,None],
-        [None,None,None,None,None,None,None,None],
-        [None,None,None,None,None,None,None,None],
-        [None,None,None,None,None,None,None,None],
-        ["lr",None,None,None,None,None,None,None],
-        ["lp","lp","lp","lp","lp","lp","lp","lp"],
-        ["lr","lh","lb","lq","lk","lb","lh","lr"]
-    ]
+
 hasMoved = {"lleft": False, "lright": False, "dleft": True, "dright": True}
 
 viewingMove = False
